@@ -75,19 +75,15 @@ The corresponding volume should be set for the audio element (note: this element
 
   
   var audio_play = document.querySelector('button');
-
+  var jsConfetti = new JSConfetti();
   audio_play.addEventListener('click', event => {
     console.log("play clicked!");
     console.log(audio);
     let val = document.getElementById("horn-select").value;
     if (val == "party-horn"){
-
-      const jsConfetti = new JSConfetti();
       jsConfetti.addConfetti({
         confettiRadius:10,
       })
-      
-
       audio.play();
     }
     else{
