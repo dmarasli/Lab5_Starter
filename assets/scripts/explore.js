@@ -51,7 +51,7 @@ var msg = new SpeechSynthesisUtterance();
 function speak(text) {
   // Create a new instance of SpeechSynthesisUtterance.
 	
-  img.src = '/assets/images/smiling-open.png';
+  img.src = 'assets/images/smiling-open.png';
   
   
   // Set the text.
