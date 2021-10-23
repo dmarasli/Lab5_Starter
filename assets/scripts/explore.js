@@ -75,7 +75,7 @@ button.addEventListener('click', function(e) {
 	if (speechMsgInput.value.length > 0) {
 		speak(speechMsgInput.value);
     msg.addEventListener('end', () => {
-      img.src = '/assets/images/smiling.png';
+      img.src = 'assets/images/smiling.png';
     });
   }
 });
